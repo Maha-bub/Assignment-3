@@ -217,7 +217,38 @@
                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                               </div>
-                              <button><a class="hover:" href="">Details</a></button>
+
+                              <!-- The button to open modal -->
+                              <label for="my_modal_8" class="">Details</label>
+
+                              <!-- Put this part before tag -->
+                              <input type="checkbox" id="my_modal_8" class="modal-toggle" />
+                              <div class="modal">
+                                   <div class="modal-box">
+                                        <img class="m-auto" src="./images/fruit6.png" alt="">
+                                        <h3 class="font-bold text-lg">Apple</h3>
+                                        <p class="py-4">Professional employees are there for you to pick the most
+                                             amazing and fresh fruits.</p>
+
+                                        <div class="rating">
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                  checked />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                        </div>
+
+                                        <div class="modal-action justify-center">
+                                             <label for="my_modal_8" class="btn">Close!</label>
+                                             <label for="my_modal_8" class="btn btn-error">Shop Now</label>
+                                        </div>
+                                   </div>
+                              </div>
 
                          </div>
                     </div>
@@ -237,7 +268,36 @@
                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                               </div>
-                              <button><a class="hover:" href="">Details</a></button>
+                              <!-- The button to open modal -->
+                              <label for="my_modal_6" class="">Details</label>
+
+                              <!-- Put this part before tag -->
+                              <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+                              <div class="modal">
+                                   <div class="modal-box">
+                                        <img class="m-auto" src="./images/fruit7.png" alt="">
+                                        <h3 class="font-bold text-lg">Orange</h3>
+                                        <p class="py-4">Professional employees are there for you to pick the most
+                                             amazing and fresh fruits.</p>
+                                        <div class="rating">
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                  checked />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                        </div>
+
+                                        <div class="modal-action justify-center">
+                                             <label for="my_modal_6" class="btn">Close!</label>
+                                             <label for="my_modal_6" class="btn btn-error">Shop Now</label>
+                                        </div>
+                                   </div>
+                              </div>
 
                          </div>
                     </div>
@@ -265,23 +325,29 @@
                                    <form method="dialog" class="modal-box">
                                         <img class="m-auto" src="./images/fruit8.png" alt="Dragon" class="rounded-xl" />
                                         <h3 class="font-bold text-lg">Dragon</h3>
-                                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                        <p class="py-4">Professional employees are there for you to pick the most
+                                             amazing and fresh fruits.</p>
                                         <div class="rating">
-                                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                  checked />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
                                         </div>
                                         <div class="m-auto gap-2 mt-3">
                                              <button class="btn">close</button>
                                              <button class="btn btn-error">Shop Now</button>
-     
+
                                         </div>
-          
+
                                    </form>
                               </dialog>
-                              
+
                          </div>
                     </div>
                     <!-- forth fruit -->
@@ -299,7 +365,37 @@
                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                               </div>
-                             
+
+                              <!-- Open the modal using ID.showModal() method -->
+                              <button class="" onclick="my_modal_5.showModal()">Details</button>
+                              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                                   <form method="dialog" class="modal-box">
+                                        <img class="m-auto" src="./images/fruit9.png" alt="">
+                                        <h3 class="font-bold text-lg">Banana</h3>
+                                        <p class="py-4">Professional employees are there for you to pick the most
+                                             amazing and fresh fruits.</p>
+
+                                        <div class="rating">
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                  checked />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                             <input type="radio" name="rating-2"
+                                                  class="mask mask-star-2 bg-orange-400" />
+                                        </div>
+
+                                        <div class="modal-action m-auto justify-center">
+                                             <!-- if there is a button in form, it will close the modal -->
+                                             <button class="btn">Close</button>
+                                             <button class="btn btn-error">Shop Now</button>
+                                        </div>
+                                   </form>
+                              </dialog>
+
 
                          </div>
                     </div>
